@@ -25,28 +25,34 @@ Ideal para tareas de análisis geoespacial, detección de edificios u objetos so
 
 Instalar con:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 ## Checkpoints
 
 Este directorio está destinado para almacenar el modelo preentrenado de Segment Anything.
 
-El archivo **NO se incluye** en este repositorio debido a su tamaño. Descárgalo manualmente desde:
+El archivo **no se incluye** en este repositorio debido a restricciones de tamaño de GitHub. 
+
+Puedes descargarlo manualmente desde:
 
 https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
 
-Y guarda el archivo como:
+Y guardar el archivo como: "checkpoints/sam_vit_h.pth"
 
-checkpoints/sam_vit_h.pth
-
+O puedes ejecutar este comando en tu terminal:
+```
+wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth -O checkpoints/sam_vit_h.pth
+```
 ## Data
 
 Este directorio está destinado para almacenar el TIFF de entrada.
 
-Los archivos de imagen **no se suben al repositorio** debido a restricciones de tamaño de GitHub.
+Los archivos de imagen **no se incluyen** en este repositorio debido a restricciones de tamaño de GitHub.
 
-Puedes descargar ortofotos anuales buscando en el mapa del CNIG:
+Puedes descargar ortofotos de 2023 de Mostoles desde:
 
-https://centrodedescargas.cnig.es/CentroDescargas/buscar-mapa
-
+https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=11958179
+https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=11958176
+https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=11958147
+https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=11958144
