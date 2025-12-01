@@ -1,0 +1,14 @@
+tifffile
+imagecodecs
+numpy
+matplotlib
+torch
+torchvision
+torchaudio
+rasterio
+geopandas
+shapely
+pycocotools
+pillow
+tqdm
+git+https://github.com/facebookresearch/segment-anything.git
